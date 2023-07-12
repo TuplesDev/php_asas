@@ -1,0 +1,29 @@
+{
+    "name": "tuplesdev/php_asas",
+    "description": "Latihan PHP Asas",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tuples.Dev",
+            "email": "tuples.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "Db\\": "db/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "classmap-authoritative": true,
+        "preferred-install": "dist",
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

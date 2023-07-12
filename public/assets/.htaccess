@@ -1,0 +1,45 @@
+ForceType application/octet-stream
+
+<FilesMatch "(?i).doc$">
+    ForceType application/msword
+</FilesMatch>
+
+<FilesMatch "(?i).docx$">
+    ForceType application/vnd.openxmlformats-officedocument.wordprocessingml.document
+</FilesMatch>
+
+<FilesMatch "(?i).xls$">
+    ForceType application/vnd.ms-excel
+</FilesMatch>
+
+<FilesMatch "(?i).xlsx$">
+    ForceType application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+</FilesMatch>
+
+<FilesMatch "(?i).ppt$">
+    ForceType application/vnd.ms-powerpoint
+</FilesMatch>
+
+<FilesMatch "(?i).pptx$">
+    ForceType application/vnd.openxmlformats-officedocument.presentationml.presentation
+</FilesMatch>
+
+<FilesMatch "(?i).pdf$">
+    ForceType application/pdf
+</FilesMatch>
+
+<FilesMatch "(?i).jpe?g$">
+    ForceType image/jpeg
+</FilesMatch>
+
+<FilesMatch "(?i).bmp$">
+    ForceType image/bmp
+</FilesMatch>
+
+<FilesMatch "(?i).png$">
+    ForceType image/png
+</FilesMatch>
+
+<FilesMatch "(?i).gif$">
+    ForceType image/gif
+</FilesMatch>
